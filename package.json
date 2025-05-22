@@ -1,0 +1,29 @@
+{
+  "name": "book-store-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saeed-Iqtaish/book-store-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saeed-Iqtaish/book-store-api/issues"
+  },
+  "homepage": "https://github.com/Saeed-Iqtaish/book-store-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.11.3",
+    "morgan": "^1.10.0"
+  }
+}
